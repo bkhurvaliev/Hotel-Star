@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.galereya{
+    border: solid 5px orange;
+    background: grey;
+}
+.imeges{
+    text-align: center;
+
+}
+.imeges img{
+    height: 250px;
+    width: 350px;
+    margin: 10px;
+    transition: all 1s;
+}
+.imeges img:hover{
+
+    transform: scale(110%);
+    transition: all 1s;
+
+}
